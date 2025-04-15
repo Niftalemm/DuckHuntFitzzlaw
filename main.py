@@ -2,24 +2,28 @@ import pygame
 import sys
 import math
 import json
+import random
+from trialGenerator import createTrials
 
 # trial_array.py content (for testing)
-trials = [
-    ['L', 's', 'm'],
-    ['R', 'm', 'l'],
-    ['L', 'l', 's'],
-    ['R', 's', 's'],
-    ['L', 'm', 'm'],
-    ['R', 'l', 'l'],
-    ['L', 's', 'l'],
-    ['R', 'm', 's'],
-    ['L', 'l', 'm'],
-    ['R', 's', 'm']
-]
+# trials = [
+#     ['L', 's', 'm'],
+#     ['R', 'm', 'l'],
+#     ['L', 'l', 's'],
+#     ['R', 's', 's'],
+#     ['L', 'm', 'm'],
+#     ['R', 'l', 'l'],
+#     ['L', 's', 'l'],
+#     ['R', 'm', 's'],
+#     ['L', 'l', 'm'],
+#     ['R', 's', 'm']
+# ]
+
+trials = createTrials()  # Generate trials using the trial generator
 
 # Mapping definitions – adjust these pixel values to suit your game design
-DISTANCE_MAP = {'s': 150, 'm': 250, 'l': 350}  # distance from center in pixels
-SIZE_MAP = {'s': 20, 'm': 40, 'l': 60}          # target radius in pixels
+DISTANCE_MAP = {'S': 150, 'M': 250, 'L': 350}  # distance from center in pixels
+SIZE_MAP = {'S': 20, 'M': 40, 'L': 60}          # target radius in pixels
 
 # Screen dimensions and colors
 WIDTH, HEIGHT = 1920, 1080

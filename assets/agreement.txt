@@ -1,0 +1,75 @@
+**INFORMED CONSENT DOCUMENT**  
+**Project Title:** **CS470 HCI – Fitts’ Law Study**  
+
+**Research Team:**  
+- **Jacob S Friedges** (Jacob.Friedges@mnsu.edu)  
+- **Kaden G O'Konek** (Kaden.O'Konek@mnsu.edu)  
+- **Niftalem M Kassa** (Niftalem.Kassa@mnsu.edu)  
+- **William R Boguslawski** (William.Boguslawski@mnsu.edu)  
+
+---
+
+Thank you for agreeing to participate in this research study! This document provides essential information about the study, including **what you will be asked to do, the risks and benefits, and your rights as a participant.**  
+If you have any questions or do not understand something in this document, please contact a member of the research team listed above.  
+
+**DO NOT agree to participate unless all your questions have been answered, and you voluntarily decide to take part in this study.**  
+
+---
+
+### **PURPOSE OF THE STUDY**  
+The purpose of this research study is to evaluate **how accurately and quickly a user can point to and click on differently sized and positioned targets on a screen.**  
+This study is based on *Fitts’ Law*, which models the relationship between **movement time, target distance, and target size.**  
+
+---
+
+### **STUDY PROCEDURES**  
+- You will participate in a series of tests, consisting of **180 trials**.  
+- Each trial involves clicking on **targets of varying sizes and distances.**  
+- Each trial will take approximately **1-3 seconds**, and the entire study should take **10-15 minutes** to complete.  
+
+---
+
+### **INCLUSION CRITERIA**  
+To participate in this study, you must:  
+- Be at least **18 years of age**.  
+- Be able to use a **mouse or similar pointing device.**  
+
+---
+
+### **DATA COLLECTION**  
+The software will record the following data during your participation:  
+1. **Target size, distance, and direction** for each trial.  
+2. **Time taken** to successfully click each target.  
+3. **Mouse movement distance** during each trial.  
+4. **Number of errors** (clicks outside the target) during each trial.  
+
+All collected data will be stored **anonymously.** **No personally identifiable information will be recorded.**  
+
+---
+
+### **COMPENSATION AND RISKS**  
+- You will **NOT** be compensated for your participation.  
+- We do **NOT** anticipate any significant risks associated with this study.  
+
+---
+
+### **VOLUNTARY PARTICIPATION**  
+Participation in this study is **voluntary.**  
+You may end your participation at any time. If you decide to end early, any data collected during your session will be **discarded.**  
+
+---
+
+### **ACKNOWLEDGEMENT**  
+By pressing the **"I Agree"** button, you confirm the following:  
+1. You are at least **18 years of age.**  
+2. You meet the inclusion criteria outlined above.  
+3. You have **read and understood** this consent form.  
+4. You **voluntarily agree** to participate in this study.  
+
+---
+
+### **STATEMENT OF CONSENT**  
+"I have read this consent form and I understand the **risks, benefits, and procedures** involved with participation in this research study.  
+I hereby **agree to participate** in this research study."  
+
+---

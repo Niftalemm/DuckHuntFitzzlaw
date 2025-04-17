@@ -4,7 +4,7 @@ import math
 import json
 import random
 from trialGenerator import createTrials
-
+from showStartScreen import show_user_agreement
 # Generate trials using the trial generator
 trials = createTrials()
 
@@ -93,6 +93,17 @@ def run_trial(screen, trial, font, target_image, background_image):
     return reaction_time, misses
 
 def main():
+
+    # Show user agreement before starting the game.
+    show_user_agreement()
+
+    # checking if they agreed to the terms: TODO: Messed up after saying declined
+    if show_user_agreement() == "decline":
+        print("User declined the agreement. Closing the window...")
+        pygame.quit()
+        sys.exit()
+    # Initialize Pygame and set up the display.
+
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("Fitts's Law Game")
@@ -114,6 +125,7 @@ def main():
     screen.blit(background_image, (0, 0))
     
     draw_button(screen, "Start", start_button, font)
+
     pygame.display.flip()
 
     waiting_to_start = True

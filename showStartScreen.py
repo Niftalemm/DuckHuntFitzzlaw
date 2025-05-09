@@ -12,17 +12,6 @@ def show_user_agreement():
     The function creates a GUI window using Tkinter. The agreement text is displayed in a read-only 
     scrolled text widget. Users can either agree to proceed or decline, which exits the application 
     with a warning message.
-    Functionality:
-    - Shows a scrollable text widget containing the agreement text.
-    - Provides an "I Agree" button to close the window and proceed.
-    - Provides a "Decline" button to display a warning message and exit the application.
-    Dependencies:
-    - tkinter (imported as tk)
-    - tkinter.scrolledtext
-    - tkinter.messagebox
-    - sys
-    Note:
-    - The variable `AGREEMENT_TEXT` must be defined elsewhere in the code to provide the agreement content.
     """
     root = tk.Tk()
     root.title("User Agreement")

@@ -22,7 +22,7 @@ objectTypes = [
 ]
 
 def createTrials():
-    repeats = 2  # 10 makes 180 trials. 
+    repeats = 10  # 10 makes 180 trials. 
     trials = []
     for _ in range(repeats):
         trials.extend([item.copy() for item in objectTypes])
